@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "cakeintech — dev, designer & curious mind",
+  title: "Mohamed — dev, designer & curious mind",
   description:
-    "Welcome to cakeintech’s digital hub. Explore my portfolio of creative coding, thoughtful design, and curiosity driven projects✨. Glazed with curiosity, baked with code.",
+    "Hey, I’m Mohamed (but online I go by cakeintech). Welcome to my digital space! Check out my portfolio!! here you’ll find my creations at the intersection of code, design, and curiosity. ✨",
 };
 
 export default function RootLayout({

@@ -1,6 +1,9 @@
 import React from "react";
 import { Spotlight } from "./ui/spotlight-new";
 import { cn } from "../lib/utils";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import TailwindButton from "./ui/TailwindButton";
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -33,6 +36,16 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Magic caster level 100!
           </h2>
+
+          <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="I craft SaaS apps from Hotel MS to Property MS using Variety of technologies that are in my Arsenal."
+          />
+
+          <p className="text-blue-100 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi, I&apos;m Mohamed, a Fullstack developer based in Ethiopia.
+          </p>
+          <TailwindButton title="Show my work" icon={<FaLocationArrow />} />
         </div>
       </div>
     </div>
